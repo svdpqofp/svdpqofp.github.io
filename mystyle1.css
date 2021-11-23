@@ -20,13 +20,14 @@ body{
  /* Add a black background color to the top navigation */
 nav {
   background-color: #333;
-  overflow: hidden;
+  text-align:center;
 }
 
 /* Style the links inside the navigation bar */
-nav a {
-  float: left;
-  display: block;
+nav ul a {
+
+  display: inline-flex;
+  list-style:none;
   color: #f2f2f2;
   text-align: center;
   padding: 14px 16px;
