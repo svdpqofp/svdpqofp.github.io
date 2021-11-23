@@ -13,3 +13,7 @@ body{
     background-position:center;
     font-family: sans-serif;
 }
+.logo{  
+   width: 100px;
+   height: auto;    
+}
