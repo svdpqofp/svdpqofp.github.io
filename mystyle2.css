@@ -1,0 +1,76 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: steelblue;
+    font-family: sans-serif;
+}
+
+.logo {
+    width: 7em;
+    height: auto;
+}
+
+/* Add a background color to the top navigation */
+nav {
+    width: 100%;
+    background-color: seashell;
+    text-align: center;
+}
+
+/* Style the links inside the navigation bar */
+nav ul {
+    display: inline-flex;
+    list-style: none;
+
+
+}
+
+nav ul li {
+    width: 6em;
+    padding: .75em;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+.active, nav ul li:hover {
+    background: slategrey;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.grid div {
+    border: 1px solid black
+}
+.grid div figure {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-style: italic;
+  
+  }
+  .grid div figure img {
+      max-width: 100%;
+      height: auto;
+  }
+
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: seashell;
+    text-align: center;
+}
