@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="mystyle2.css">
+    <title>About Us</title>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="project_home.html">Home</a></li>
+            <li class="active"><a href="#about_us">About&nbsp;Us</a></li>
+            <li><a href="news.html">News</a></li>
+            <li><a href="#contact">Contacts</a></li>
+        </ul>
+    </nav>
+
+    <div class= "grid">
+        <div>1</div>
+        
+        <div>Serving the community of Mesa, Arizona since 1954.
+           
+            <div>Members of the Society of St. Vincent de Paul (Vincentians) are men and women striving to grow spiritually by 
+                offering personal service to those in their local community in need. Queen of Peace Vincentians represent all ages, 
+                every race, and all incomes, and all have a unique awareness that it is their duty to share their many blessings 
+                with their neighbours in need.</div>
+            <div>The Society of St. Vincent de Paul is dedicated to feeding, clothing, housing and healing individuals and families
+                 in our community who have nowhere else to turn for help. As important, SVdP provides meaningful opportunities for 
+                 volunteers to serve their neighbours in need with love and compassion.</div>
+            <div>6</div>
+            <div> 
+                <figure>
+                   <img src="member_christmas_party.jpg" alt = "Member Christmas Party" >
+                   <figcaption> Member Christmas Party  </figcaption>
+                </figure>
+            </div>
+            
+            
+        </div>
+  
+
+  
+    
+
+<footer>
+    <div><img class="logo" src="svdp_logo.png" alt="Logo" /></div>
+</footer>
+
+</body>
+
+</html>
