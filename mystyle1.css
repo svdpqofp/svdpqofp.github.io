@@ -15,11 +15,13 @@ body {
 
 header {
     background-color: seashell;
+    width: 100%;
 }
 
 li {
     list-style: none;
 }
+
 
 a {
     color: black;
@@ -40,6 +42,7 @@ a {
     justify-content: space-between;
     align-items: center;
     gap: 60px;
+    font-size: larger;
 }
 
 .nav_link {
@@ -47,7 +50,8 @@ a {
 }
 
 .nav_link:hover {
-    color: dodgerblue;
+    color: steelblue;
+    font-weight: bold;
 }
 
 .hamburger {
@@ -61,23 +65,56 @@ a {
     height: 3px;
     margin: 5px auto;
     -webkit-transition: all 0.3s ease-in-out;
-    background-color: white;
+    background-color: black;
 }
 
 h1 {
-    text-align: center;
-    margin-top: 1em;
+    text-align: left;
+    margin-top: 1%;
+    margin-left: 10%;
+    font-size: 3vw;
 }
 
 h2 {
+    margin-left: 15%;
+    font-size: 2vw;
+}
+
+.logo {
+    width: 8em;
+    height: auto;
+}
+
+footer {
+    position: fixed;
+    min-height: 70px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: seashell;
+    text-align: center;
     font-style: italic;
+    font-size: 2vw;
     text-align: center;
 }
+
 
 
 @media(max-width: 600px) {
     .hamburger {
         display: block
+    }
+
+    .hamburger.active bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
     }
 
     .nav_menu {
@@ -86,29 +123,18 @@ h2 {
         top: 70px;
         gap: 0;
         flex-direction: column;
-        background-color: black;
+        background-color: seashell;
         width: 100%;
         text-align: center;
         transition: 0.3s;
 
     }
-    .nav_item{
+
+    .nav_item {
         margin: 16px 0;
     }
-    .nav_menu.active{
-        left:0;
-    }
-}
-.logo {
-    width: 7em;
-    height: auto;
-}
 
-footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: seashell;
-    text-align: center;
+    .nav_menu.active {
+        left: 0;
+    }
 }
