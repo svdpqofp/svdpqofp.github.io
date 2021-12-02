@@ -22,7 +22,6 @@ li {
     list-style: none;
 }
 
-
 a {
     color: black;
     text-decoration: none;
@@ -64,7 +63,6 @@ a {
     width: 25px;
     height: 3px;
     margin: 5px auto;
-    -webkit-transition: all 0.3s ease-in-out;
     background-color: black;
 }
 
@@ -72,7 +70,7 @@ h1 {
     text-align: left;
     margin-top: 1%;
     margin-left: 10%;
-    font-size: 3vw;
+    font-size: 20vw;
 }
 
 h2 {
@@ -94,7 +92,7 @@ footer {
     background-color: seashell;
     text-align: center;
     font-style: italic;
-    font-size: 2vw;
+    font-size: 10vw;
     text-align: center;
 }
 
@@ -104,19 +102,7 @@ footer {
     .hamburger {
         display: block
     }
-
-    .hamburger.active bar:nth-child(2) {
-        opacity: 0;
-    }
-
-    .hamburger.active bar:nth-child(1) {
-        transform: translateY(8px) rotate(45deg);
-    }
-
-    .hamburger.active bar:nth-child(3) {
-        transform: translateY(-8px) rotate(-45deg);
-    }
-
+  
     .nav_menu {
         position: fixed;
         left: 100%;
@@ -127,7 +113,6 @@ footer {
         width: 100%;
         text-align: center;
         transition: 0.3s;
-
     }
 
     .nav_item {
@@ -137,5 +122,14 @@ footer {
     .nav_menu.active {
         left: 0;
     }
+}
+
+@media(min-width: 600px) {
+   footer {
+     font-size: 2vw;  
+   } 
+   h1 {
+    font-size: 3vw;
+   }
 }
 
