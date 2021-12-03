@@ -82,7 +82,9 @@ footer {
     color: black;
 }
 
-
+.flex_container{
+    display: flex;
+}
 
 @media(max-width: 600px) {
     .hamburger {
@@ -117,18 +119,4 @@ h1{
 
 
 
-@media(min-width: 600px) {
-    .grid {
-        display: grid;
-        grid-template-columns: 2fr 2fr 2fr;
-        grid-gap: 20px;
-        padding: 3em;
-        text-align: justify;
-    }
-
-    footer {
-        font-size: 2vw;
-        }
-
-}
 
