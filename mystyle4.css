@@ -84,6 +84,7 @@ footer {
 
 .flex_container{
     display: flex;
+     flex-wrap: wrap;
 }
 
 @media(max-width: 600px) {
