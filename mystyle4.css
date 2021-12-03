@@ -64,7 +64,7 @@ a {
 }
 
 .logo {
-    width: 10%;
+    width: 8em;
     height: auto;
 }
 
@@ -82,20 +82,7 @@ footer {
     color: black;
 }
 
-.box {
-    display: flex;
-    justify-content: space-between;
-  }
 
-  div {
-    flex: 1;       
-  }
-  img {
-    width: 100%;        /* Make it occupy 100% of the size of the <div> */
-    min-width: 280px;   /* Give it a minimum size so that it will wrap 
-                           instead of just shrinking */
-  }
-  
 
 @media(max-width: 600px) {
     .hamburger {
@@ -144,3 +131,4 @@ h1{
         }
 
 }
+
