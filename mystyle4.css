@@ -88,8 +88,9 @@ footer {
 }
 
 
-img {
-  width: 100%;        
+.flex_container img {
+  width: 100%;   
+    object-fit: contain;
   min-width: 280px;  
                          
 }
