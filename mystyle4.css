@@ -118,5 +118,13 @@ h1{
 }
 
 
+@media(min-width: 600px) {
+  
+
+    footer {
+        font-size: 2vw;
+        }
+
+}
 
 
