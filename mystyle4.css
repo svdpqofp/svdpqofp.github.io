@@ -87,6 +87,13 @@ footer {
      flex-wrap: wrap;
 }
 
+
+img {
+  width: 100%;        
+  min-width: 280px;  
+                         
+}
+
 @media(max-width: 600px) {
     .hamburger {
         display: block
