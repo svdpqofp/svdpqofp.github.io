@@ -88,12 +88,7 @@ footer {
 }
 
 
-.flex_container img {
-  width: 100%;   
-    object-fit: contain;
-  min-width: 280px;  
-                         
-}
+
 
 @media(max-width: 600px) {
     .hamburger {
