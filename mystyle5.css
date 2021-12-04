@@ -96,6 +96,21 @@ footer {
 
 }
 
+.grid div figure {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-size: large;
+    font-style: italic;
+    font-weight: bold;
+    color: black;
+}
+
+.grid div figure img {
+    max-width: 80%;
+    height: auto;
+}
+
 
 
 
