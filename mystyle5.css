@@ -144,7 +144,7 @@ footer {
         display: grid;
         grid-template-rows: auto;
         min-height: 200px;
-        grid-gap: 5px;
+        grid-gap: 0;
         padding: 1em;
         text-align: justify;
     }
