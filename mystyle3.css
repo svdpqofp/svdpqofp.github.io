@@ -80,19 +80,31 @@ footer {
     color: black;
 }
 
-.grid {
-    display: grid;
-    grid-template-columns: 1fr;
-    padding: 1em;
+
+h1 {
+    margin-top: 3%;
+    text-align: center;
+    color: black;
+}
+
+h3 {
+    margin-top: 3%;
     text-align: center;
 }
 
+.grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 3em;
+    text-align: justify;
+}
+
 .grid div {
+
     background-color: #EDF3F8;
     border-radius: 30px;
     padding: 2em;
     margin-bottom: 10%;
-
 
 }
 
@@ -107,10 +119,20 @@ footer {
 }
 
 .grid div figure img {
-    max-width: 20%;
+    max-width: 80%;
     height: auto;
 }
 
+p {
+    font-style: italic;
+    font-size: x-large;
+    text-align: center;
+}
+
+.grid div ul li {
+
+    text-align: center;
+}
 
 @media(max-width: 600px) {
     .hamburger {
@@ -139,13 +161,23 @@ footer {
     }
 }
 
+#related_links li a{
+    color: steelblue;
+}
+
+
+#related_links li a:hover {
+
+    background: steelblue;
+    color: white;
+}
+
 @media(min-width: 600px) {
     .grid {
         display: grid;
-        grid-template-rows: auto;
-        min-height: 200px;
-        grid-gap: 5px;
-        padding: 1em;
+        grid-template-columns: 2fr 2fr 2fr;
+        grid-gap: 20px;
+        padding: 3em;
         text-align: justify;
     }
 
@@ -154,5 +186,3 @@ footer {
     }
 
 }
-
-
