@@ -168,7 +168,7 @@ p {
         left: 0;
     }
 }
-a:hover {
+li a:hover {
   border-bottom: 1px solid;
   background: #CDFEAA;
 }
