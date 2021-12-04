@@ -168,7 +168,7 @@ p {
         left: 0;
     }
 }
-li a:hover {
+.related_links a:hover {
   border-bottom: 1px solid;
   background: #CDFEAA;
 }
