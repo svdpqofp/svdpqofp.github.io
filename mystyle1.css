@@ -102,7 +102,7 @@ footer {
     .hamburger {
         display: block
     }
-  
+
     .nav_menu {
         position: fixed;
         left: 100%;
@@ -125,13 +125,15 @@ footer {
 }
 
 @media(min-width: 600px) {
-   footer {
-     font-size: 2vw;  
-   } 
-   h1 {
-    font-size: 3vw;
-       margin-left: 10%;
-   }
+    footer {
+        font-size: 2vw;
+    }
+
+    h1 {
+        font-size: 3vw;
+        margin-left: 10%;
+    }
+
     h2 {
         margin-left: 15%;
         font-size: 2vw;
