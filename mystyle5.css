@@ -82,7 +82,7 @@ footer {
 
 .grid {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
     padding: 1em;
     text-align: center;
 }
@@ -92,6 +92,7 @@ footer {
     border-radius: 30px;
     padding: 2em;
     margin-bottom: 10%;
+    
 
 
 }
@@ -143,8 +144,7 @@ footer {
     .grid {
         display: grid;
         grid-template-rows: auto;
-        min-height: 200px;
-         grid-row-gap: 0px;
+        grid-row-gap: 0px;
         padding: 1em;
         text-align: justify;
     }
