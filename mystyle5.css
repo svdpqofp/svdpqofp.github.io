@@ -82,8 +82,7 @@ footer {
 
 .grid {
     display: grid;
-    grid-template-rows: 1fr;
-    
+    grid-template-rows: 1fr; 
     padding: 1em;
     text-align: justify;
 }
@@ -93,7 +92,7 @@ footer {
     padding: 2em;
     margin-bottom: 2%;
     text-align: center;
-    display: inline-block;
+   
 
 }
 
@@ -105,13 +104,12 @@ footer {
     font-style: italic;
     font-weight: bold;
     color: black;
-     display: inline-block;
+    
 }
 
 .grid div figure img {
     max-width: 30%;
     height: auto;
-     display: inline-block;
 }
 
 
@@ -151,41 +149,16 @@ footer {
         grid-template-rows: 1fr; 
         padding: 1em;
         text-align: justify;
+        
     }
     .grid div {
         border-radius: 30px;
         padding: 2em;
         margin-bottom: 2%;
         text-align: center;
-        background-color: chartreuse;
+        background-color: turquoise;
     
     }
-    .grid div {
-   
-    border-radius: 30px;
-    padding: 2em;
-    margin-bottom: 2%;
-    text-align: center;
-    display: inline-block;
-
-}
-
-.grid div figure {
-    width: 100%;
-    height: auto;
-    text-align: center;
-    font-size: large;
-    font-style: italic;
-    font-weight: bold;
-    color: black;
-     display: inline-block;
-}
-
-.grid div figure img {
-    max-width: 30%;
-    height: auto;
-     display: inline-block;
-}
     #related_links {
         width: 20%;
         margin:0 auto;
