@@ -131,19 +131,16 @@ h1{
     .nav_menu.active {
         left: 0;
     }
-}
 
-h1{
-    text-align: center;
+.flex_container {
+    flex-direction: column;
+  }
 }
 
 
 
 @media(min-width: 600px) {
-    .flex_container {
-        flex-direction: column;
-      }
-
+    
     footer {
         font-size: 2vw;
         }
