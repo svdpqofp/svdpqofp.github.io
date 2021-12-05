@@ -111,6 +111,7 @@ footer {
 .grid div figure img {
     max-width: 30%;
     height: auto;
+     display: inline-block;
 }
 
 
