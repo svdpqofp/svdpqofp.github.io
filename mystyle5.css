@@ -160,6 +160,32 @@ footer {
         background-color: chartreuse;
     
     }
+    .grid div {
+   
+    border-radius: 30px;
+    padding: 2em;
+    margin-bottom: 2%;
+    text-align: center;
+    display: inline-block;
+
+}
+
+.grid div figure {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-size: large;
+    font-style: italic;
+    font-weight: bold;
+    color: black;
+     display: inline-block;
+}
+
+.grid div figure img {
+    max-width: 30%;
+    height: auto;
+     display: inline-block;
+}
     #related_links {
         width: 20%;
         margin:0 auto;
