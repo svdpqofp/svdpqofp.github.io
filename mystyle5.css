@@ -66,6 +66,7 @@ a {
     height: auto;
 }
 
+
 footer {
     position: fixed;
     min-height: 70px;
@@ -110,6 +111,8 @@ footer {
 
 
 
+
+
 @media(max-width: 600px) {
     .hamburger {
         display: block
@@ -134,10 +137,19 @@ footer {
     .nav_menu.active {
         left: 0;
     }
+
+    #related_links li a {
+        background-color: seashell;
+        color: steelblue;
+        font-size: larger;
+        font-weight: bold;
+        text-decoration: underline;
+
+    }
 }
 
 @media(min-width: 600px) {
-    
+
     #related_links {
         width: 20%;
         margin: 0 auto;
@@ -166,6 +178,7 @@ footer {
     footer {
         font-size: 2vw;
     }
+
 
 }
 
