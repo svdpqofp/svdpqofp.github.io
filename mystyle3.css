@@ -86,7 +86,8 @@ h1 {
     text-align: center;
     color: black;
 }
-h2{
+
+h2 {
     text-align: center;
 }
 
@@ -159,7 +160,7 @@ p {
     }
 }
 
-#related_links li a{
+#related_links li a {
     color: steelblue;
 }
 
